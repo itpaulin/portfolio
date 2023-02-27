@@ -2,16 +2,26 @@
   @import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300;600&display=swap");
   margin: 0;
   padding: 0;
-  background-color: rgb(231, 110, 29);
 }
 
 body {
   font-family: Karla, "Light 300";
+  background-image: linear-gradient(135deg, #fec163 10%, #de4313 100%);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(68, 22, 22, 0.705);
+  height: 90px;
+  align-items: center;
 }
 
 .main {
-  justify-content: space-between;
+  justify-content: space-around;
   display: flex;
+  align-items: center;
+  margin-top: 50px;
 }
 
 .sidebar .left-bar {
@@ -24,4 +34,27 @@ body {
   display: flex;
   justify-content: right;
   float: right;
+}
+
+.content {
+  background-color: rgb(226, 226, 221);
+  width: 200px;
+  height: 600px;
+  border-radius: 15px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+.center {
+  width: 400px;
+}
+.left-bar {
+  width: 250px;
+}
+
+.footer {
+  margin-top: 50px;
+  display: block;
+  justify-content: space-between;
+  background-color: black;
+  height: 100px;
 }

@@ -1,0 +1,8 @@
+.icon {
+  color: orange;
+  cursor: pointer;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 1.5em;
+  display: flex;
+}
