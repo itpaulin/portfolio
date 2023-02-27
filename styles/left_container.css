@@ -5,13 +5,17 @@
   font-size: 14px;
   color: black;
 }
+
 .skills {
   display: flex;
   flex-direction: column;
 }
-.work {
+
+.informations {
   display: flex;
+  padding-top: 15px;
 }
+
 .my-photo {
   width: 140px;
   height: 140px;
@@ -21,9 +25,4 @@
   margin-left: 25px;
   margin-top: 12px;
   margin-bottom: 15px;
-}
-
-.collage {
-  display: flex;
-  padding-top: 15px;
 }
