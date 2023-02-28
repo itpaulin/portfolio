@@ -1,0 +1,12 @@
+.center img {
+  width: 200px;
+  height: 100px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: auto auto;
+
+  justify-content: center;
+  gap: 20px;
+}

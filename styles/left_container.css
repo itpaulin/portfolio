@@ -19,10 +19,11 @@
 .my-photo {
   width: 140px;
   height: 140px;
-  border-radius: 150px;
+  border-radius: 50%;
   box-shadow: 0 15px 30px rgba(39, 75, 36, 0.3);
-  padding: 5px;
-  margin-left: 25px;
+  /* padding: 5px; */
+  margin-left: 40px;
   margin-top: 12px;
   margin-bottom: 15px;
+  border: 5px solid rgb(247, 142, 5);
 }

@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Againts";
-  src: url("./againts.otf");
+  src: url("./fonts/againts.otf");
   font-weight: normal;
   font-style: normal;
 }
@@ -20,6 +20,7 @@
   outline: none;
   padding-left: 15px;
   padding-top: 10px;
+  cursor: none;
 }
 
 .logo:hover {
